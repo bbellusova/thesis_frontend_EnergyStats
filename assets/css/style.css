@@ -1,0 +1,61 @@
+:root {
+  font-family: 'Consolas', 'SFMono-Regular', 'Cascadia Mono', 'Liberation Mono', 'Courier New', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#app {
+  width: 100%;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-shell::before {
+  content: '';
+  position: fixed;
+  inset: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+@media (max-width: 960px) {
+  .app-shell {
+    padding: 1.5rem;
+  }
+
+  .app-shell::before {
+    inset: 12px;
+    border-radius: 1.4rem;
+  }
+}

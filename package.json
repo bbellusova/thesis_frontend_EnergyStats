@@ -1,0 +1,32 @@
+{
+  "name": "bp_energy_stats_fe",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@meteocons/svg": "^0.1.0",
+    "@nuxt/eslint": "^1.15.2",
+    "@nuxt/ui": "4.5.1",
+    "@pinia/nuxt": "^0.11.3",
+    "apexcharts": "^5.10.5",
+    "axios": "^1.13.6",
+    "date-fns": "^4.1.0",
+    "js-base64": "^3.7.8",
+    "nuxt": "^4.4.2",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "vue3-apexcharts": "^1.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "typescript": "~5.9.3",
+    "vite-plugin-eslint2": "^5.1.0",
+    "vue-tsc": "^3.2.7"
+  }
+}
