@@ -1,9 +1,12 @@
 # Energy Stats
 
 This project implements a UI of a web application for monitoring energy production and consumption of a household with photovoltaics.
-It enables the creation of an account for a Site (the household), and configuration of methods through which the data for the site will be obtained.
+The UI enables the creation of an account for a Site (the household), and configuration of methods through which the data for the site will be obtained.
 After a site account is established, the users can access components for charts and statistics visualization, data import from a file, and forecasts display.
 Provided forecasts include generation forecasts obtained from forecast.solar, and weather forecasts obtained from OpenMeteo.
+<br>
+<br>
+ The backend implementation is available at: https://github.com/bbellusova/thesis_backend_EnergyStats.
 
 
 
